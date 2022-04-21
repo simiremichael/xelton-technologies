@@ -5,31 +5,40 @@ import styled from 'styled-components';
 import Bottom from './Bottom';
 
 
-const Container = styled.div`
 
-background-color: #0e0202;
+const Container = styled.div`
+background-image: url('../images/home-background.png');
+background-size: center;
+background-size: 100% 100%;
+:img{
+    opacity: 0.5px;
+}
+background-color: #000000;
 heigth: 100%;
 width: 100%;
+color:#ffffff;
 `
 const MiddleContainer =styled.div`
-background-color: #f1efef;
-padding: 90px 10px 10px 10px;
+height: auto;
+padding: 6rem 10px 10px 10px;
 `
 const Header1 = styled.h1`
 text-align: center;
-
+color: #ffffff;
 `
 const Paragraph1 = styled.p`
 
 `
 const Header2 = styled.h1`
 text-align: center;
+color: #ffffff;
 `
 const Paragraph2 = styled.p`
-
+color: #ffffff;
 `
 const Header3 = styled.h1`
 text-align: center;
+color: #ffffff;
 `
 const Paragraph3 = styled.p`
 

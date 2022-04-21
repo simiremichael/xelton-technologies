@@ -5,115 +5,44 @@ import styled from 'styled-components';
 
 
 const Container = styled.div`
-
-justify-content: center;
-align-items: center;
-
-@media only screen and (max-width: 992px) {
-   flex-direction: column;
-}
-
-@media only screen and (min-width: 993px) {
-    display: flex;
-}
 width: 100%;
-background-color: #030635;
-align-items: center;
-@media only screen and (max-width: 280px) {
-    height: auto;
-}
-@media only screen and (min-width: 281px) {
-    height: auto;
-}
-@media only screen and (min-width: 401px) {
-    height: auto;
-}
-
-@media only screen and (min-width: 993px) {
-    height: 500px;
-   
-}
+height: auto;
 `
 const InnerContainer = styled.div`
-
-@media only screen and (max-width: 280px) {
-    height: auto;
-    padding: 0px 2px 15px 2px; 
-}
-@media only screen and (min-width: 281px) {
-    height: auto;
-    padding: 0px 4px 15px 4px; 
-}
-@media only screen and (min-width: 401px) {
-    height: auto;
-    padding: 0px 6px 15px 6px; 
-}
-
-@media only screen and (min-width: 993px) {
-    height: 500px;
-    padding: 0px 10px 15px 10px; 
-}
-
-width: 100%;
-background-color: #030635;
-
-justify-content: center;
-align-items: center;
-
-@media only screen and (max-width: 992px) {
-   flex-direction: column;
-}
-
-@media only screen and (min-width: 993px) {
-    display: flex;
-}
-
-`
-const RightContainer = styled.div`
 width: 100%;
 height: 100%;
-background-color: #030635;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+`
+const RightContainer = styled.div`
+width: 35rem;
+height: 100%;
+ustify-content: center;
 `
 
 const LeftContainer = styled.div`
-width: 100%;
+width: 35rem;
+margin-top: 20px;
 height: 100%;
-background-color: #030635;
 justify-content: center;
 align-items: center;
-
 `
 const LeftImg = styled.img`
-
 height: auto;
+
+max-width: 95%;
 border-radius: 10px;
-justify-content: center;
-align-items: center;
-@media only screen and (max-device-width: 280px) {
-    max-width: 100%;
-    margin: 3px;
-}
-@media only screen and (min-device-width: 281px) {
-    max-width: 100%;
-    margin: 5px;
-}
-@media only screen and (min-device-width: 401px) {
-    max-width: 100%;
-    margin: 8px;
-}
-
-@media only screen and (min-device-width: 993px) {
-    width: 600px;
-    margin: 20px;
-}
-
+ align-self: center;
+ margin-left: auto;
+ margin-right: auto;
+margin: 25px 0px 0px 8px;
 `
 const RightItem1 = styled.h1`
-text-align: start;
-border: 1px solid #fff;
-font-family: sans-serif;
-color: #A88F00;
+text-align: center;
+border: 1px solid #008080;
+font-family: serif;
+color: #008080;
 justify-content: center;
 align-items: center;
 @media only screen and (max-width: 280px) {
@@ -134,7 +63,6 @@ font-weight: 15px;
 font-size: 28px;
 font-weight: 20px;
 }
-
 @media only screen and (min-width: 993px) {
     margin: 80px 15px 10px 15px;
     padding:5px;
@@ -143,11 +71,11 @@ font-weight: 25px;
 }
 `
 const RightItem2 = styled.p`
-
-font-family: sans-serif;
+font-family: serif;
+border: 1px solid #008080;
 text-align: start;
-border: 1px solid #fff;
-color: #A88F00;
+border: 1px solid gray;
+color: #008080;
 @media only screen and (max-width: 280px) {
     margin: 0px 3px 0px 3px;
     padding:5px;
@@ -163,7 +91,6 @@ font-size: 10px;
     padding:5px;
 font-size: 15px;
 }
-
 @media only screen and (min-width: 993px) {
     margin: 0px 15px 0px 15px;
     padding:5px;
@@ -192,5 +119,3 @@ function MiddleContainer() {
 }
 
 export default MiddleContainer
-
-

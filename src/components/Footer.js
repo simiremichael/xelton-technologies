@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Container = styled.div`
-background-color: #333232;
+background-color: #000000;
 width: 100%;
 height: 4rem;
 display: flex;
@@ -16,68 +16,11 @@ border-top: 1px solid white;
 @media only screen and (min-width: 601px) {
     display: flex;
 }
-@media only screen and (max-width: 49px) {
-    margin-top: 69rem;
-  
-}
-@media only screen and (min-width: 50px) {
-    margin-top: 71.5rem;
-  
-}
-@media only screen and (min-width: 70px) {
-    margin-top: 69rem;
-  
-}
-@media only screen and (min-width: 90px) {
-    margin-top: 57rem;
-  
-}
-@media only screen and (min-width: 110px) {
-    margin-top: 50rem;
-  
-}
-@media only screen and (min-width: 120px) {
-    margin-top: 42rem;
-  
-}
-@media only screen and (min-width: 130px) {
-    margin-top: 35rem;
-  
-}
-@media only screen and (min-width: 150px) {
-    margin-top: 31rem;
-  
 
-}
-@media only screen and (min-width: 170px) {
-    margin-top: 27rem;
-  
-
-}
-@media only screen and (min-width: 191px) {
-    margin-top: 20.5rem;
-  
-
-}
-@media only screen and (min-width: 281px) {
-    margin-top: 32rem;
-
-
-}
-@media only screen and (min-width: 401px) {
-    margin-top: 3.3rem;
-    padding-top: 0.5rem;
-  
-
-}
-
-@media only screen and (min-width: 450px) {
-    margin-top: 0rem;
-}
 
 `
 const LeftContainer = styled.div`
-background-color: #333232;
+background-color: #000000;
 display: flex;
 color: #ffffff;
 margin-left: 10px;
@@ -189,8 +132,8 @@ margin-left: 5px;
     }
 `
 const CenterContainer = styled.div`
+background-color: #000000;
 display: flex;
-background-color: #333232;
 align-items: center;
 @media only screen and (max-width: 600px) {
     width: auto;

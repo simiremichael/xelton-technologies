@@ -54,15 +54,14 @@ width: 100%;
 @media only screen and (min-width: 993px) {
     height: 550px
 }
-background-color:#091143;
+background-color: #008080;
 opacity: 0.8;
-
+padding: 0 10%;
 `
 function ImgSlider() {
     return (
         <Container>
         <Slider autoplay effect="fade">
-     
         <Wrapper1>
         <BackColor>
         <Fades direction="up">
@@ -73,14 +72,10 @@ function ImgSlider() {
        </Fades>
        </BackColor>
         </Wrapper1>
-       
-
-    
      <Wrapper2>
      <BackColor>
      <Fades direction="up">
      <Heading>ENTERPRISE SOFTWARE SOLUTIONS</Heading>
-     
      <Paragraph>Enterprise Softeware solution aims to <br/>
      improve the enterprise's productivity, <br/>
      performance and efficiency by <br/>
@@ -89,17 +84,12 @@ function ImgSlider() {
     </Fades>
     </BackColor>
      </Wrapper2>
-  
-
-    
      <Wrapper3>
      <BackColor>
      <Fades direction="up">
      <Heading >MOBILE APP DEVELOPMENT</Heading>
-    
      <Paragraph>Business always need bedspoke software, Xelton is keen to  <br/>
         always make you happy as a software company in Lagos.</Paragraph>
-        
     </Fades>
     </BackColor>
      </Wrapper3>
@@ -107,7 +97,6 @@ function ImgSlider() {
          <BackColor>
          <Fades direction="up">
           <Heading>DIGITAL MARKETING AND ADVERTISING</Heading>
-        
         <Paragraph>Wild range of digital marketing and advertising, <br/>
         help business grow online, reach target audience, <br/>
         generate leads, calls and revenue.</Paragraph>   

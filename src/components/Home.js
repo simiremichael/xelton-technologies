@@ -7,10 +7,10 @@ import Plans from './Card';
 import Mission from './Mission';
 import Bottom from './Bottom';
 import  Footer  from './Footer';
+import CenterMode from './Job';
 
 
 const Container = styled.main`
-background-color: #0e0202;
 `
 
 
@@ -22,6 +22,7 @@ const Home = () => {
       <MiddleContainer/>  
       <Mission />
       <Plans />
+      <CenterMode />
       <Bottom />
        <Footer/>
         </Container>

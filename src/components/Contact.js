@@ -7,15 +7,19 @@ import ContactImage from '../images/contact.jpg';
 import emailjs from '@emailjs/browser';
 
 
-
 const Container = styled.div`
-background-color: #0e0202;
+background-image: url('../images/home-background.png');
+background-size: center;
+background-size: 100% 100%;
+:img{
+    opacity: 0.5px;
+background-color:#000000;
 `
 const ContactImgContainer = styled.div`
-
+margin-top: 10px;
 @media only screen and (max-width: 280px) {
     height: 380px;
-    padding-top:90px;
+    
 }
 
 height: 500px;
@@ -28,7 +32,7 @@ width: 100%
 const FormContainer = styled.div`
 width: 100%;
 height: 500px;
-background-color: #04123d;
+
 `
 const Form = styled.form`
 width: 60%;
@@ -39,6 +43,7 @@ justify-content: center;
 margin: 0px 10% 0px 10%;
 `
 const ContactContainer = styled.div`
+
 @media only screen and (max-width: 992px) {
     display: flex;
    flex-direction: column-reverse;
@@ -52,7 +57,6 @@ const Inputs = styled.input`
 border-radius: 5px;
 font-weight: 12px;
 font-size: 18px;
-background-color: #f1eec0;
 `
 const Button = styled.button`
 background-color: #A88F00;
@@ -92,7 +96,6 @@ color: #ffffff;
 padding-top: 35px;
 `
 const Textareas = styled.textarea`
-background-color: #f1eec0;
 border-radius: 5px;
 font-weight: 12px;
 font-size: 18px;

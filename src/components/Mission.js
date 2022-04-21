@@ -3,11 +3,10 @@ import styled from 'styled-components';
 
 const Container = styled.div`
 width: 100%;
+background:  #2F4F4F;
+padding: 0 10%;
+margin: 10px 0;
 padding-bottom: 10px;
-background-color: #A88F00;
-justify-content: center;
-align-items: center;
-align-content: center;
 @media only screen and (max-width: 992px) {
    flex-direction: column;
 }
@@ -32,11 +31,8 @@ align-content: center;
 }
 `
 const Rows = styled.div`
+
 width: 100%;
-background-color: #A88F00;
-justify-content: center;
-align-items: center;
-align-content: center;
 
 @media only screen and (max-width: 400px) {
     flex-direction: column
@@ -52,33 +48,32 @@ align-content: center;
 
 @media only screen and (max-width: 280px) {
     height: auto;
+  
 }
 @media only screen and (min-width: 281px) {
     height: auto;
 }
 @media only screen and (min-width: 401px) {
     height: auto;
+    
 }
 
 @media only screen and (min-width: 993px) {
     height: 350px;
-   
+  
 }
 
 `
 const Cols = styled.div`
 width: 100%;
 height: 100%;
-background-color: #A88F00;
-justify-content: center;
-align-items: center;
+align-self: center;
 `
 
 const Header = styled.h1`
-color: #ffffff;
+color: #F5F5F5;
 text-align: start;
-background-color: #A88F00;
-font-family: sans-serif;
+font-family: serif;
 @media only screen and (max-width: 280px) {
    padding: 0px 3px 0px 3px;
 font-size: 15px;
@@ -103,11 +98,10 @@ font-weight: 25px;
 
 `
 const Paragraph = styled.p`
-color: #ffffff;
+color: #F5F5F5;
 text-align: start;
 font-size: 14px;
-font-family: sans-serif;
-background-color: #A88F00;
+font-family: serif;
 @media only screen and (max-width: 280px) {
     margin: 0px 3px 0px 3px;
 font-size: 7px;
@@ -135,20 +129,20 @@ function Mission() {
                 <Cols>
                 <Header> Xelton Technologies Vision</Header>
                 <Paragraph>
-                <strong>Xelton Technologies </strong>assists its clients businesses in achieving their <br/>
-                 highest posibble level of <strong>business growth and success by providing <br/>
-                 Innovative Business Solutions</strong> that meet their needs, assist them in <br/>
-                 becoming a leader in their industry, and maintain a constant and long- <br/>
+                <strong>Xelton Technologies </strong>assists its clients businesses in achieving their 
+                 highest posibble level of <strong>business growth and success by providing 
+                 Innovative Business Solutions</strong> that meet their needs, assist them in 
+                 becoming a leader in their industry, and maintain a constant and long- 
                  term business relation with them.
                 </Paragraph>
                 </Cols>
                 <Cols>
                   <Header>Xelton Technologies Mission</Header>  
                   <Paragraph>
-                      To assist <strong>entrepreneurs and professionals</strong> in achieving their business <br/>
-                      goals and objectives through the <strong>use of appropriate business <br/>
-                       strategies & the latest technology;</strong> to esterblish, impliment, maintain, <br/>
-                       and continuously improve technologies, and maintain a constant and <br/>
+                      To assist <strong>entrepreneurs and professionals</strong> in achieving their business 
+                      goals and objectives through the <strong>use of appropriate business 
+                       strategies & the latest technology;</strong> to esterblish, impliment, maintain, 
+                       and continuously improve technologies, and maintain a constant and 
                        long-term customer-friendly relationship.
                   </Paragraph>
                 </Cols>
